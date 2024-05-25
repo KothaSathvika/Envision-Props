@@ -1,10 +1,92 @@
 /* Modify the background color */
 .navbar-custom {
-    background-color:#5b7035;
+    background-color: #67414C;
     color: white;
 }
-.image-class{
+
+.image-class {
     height: 100vh;
     width: 100%;
-    object-fit: cover;
+    object-fit: cover;
+}
+
+body {
+    background: url('Images/DesignerKhammam.jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    background-color: #333;
+    font-family: 'Open Sans', Arial, Helvetica, Sans-Serif;
+}
+
+.text-align {
+
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+.home-card-color {
+    background-color: #67414C !important;
+}
+
+.text-in-card {
+    text-align: center;
+    color: white !important;
+}
+
+@media only screen and (max-width: 768px) {
+
+    /* In mobile phones */
+    .card-size {
+        width: 20rem;
+    }
+
+
+
+    .first-text-size-in-card {
+        font-size: 18px;
+        font-family: "Brush Script MT", cursive;
+    }
+
+    .second-text-size-in-card {
+        font-size: 15px;
+        font-family: Garamond, serif;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+    /* For desktop */
+    .card-size {
+        width: 35rem;
+    }
+
+
+    .first-text-size-in-card {
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .second-text-size-in-card {
+        font-size: 25px;
+        font-family: Garamond, serif;
+    }
+}
+
+hr {
+    border: none;
+    height: 1px;
+    /* Set the hr color */
+    color: white;
+    /* old IE */
+    background-color: white;
+    /* Modern Browsers */
 }
