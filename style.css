@@ -10,7 +10,7 @@
     object-fit: cover;
 }
 
-body {
+.body-back {
     background: url('Images/DesignerKhammam.jpeg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -58,6 +58,11 @@ body {
         font-family: Garamond, serif;
     }
 
+    .image-size {
+        width: 80vw;
+        margin-bottom: 30px;
+    }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -66,7 +71,6 @@ body {
     .card-size {
         width: 35rem;
     }
-
 
     .first-text-size-in-card {
         font-size: 30px;
@@ -84,6 +88,10 @@ body {
 
     .navbar-margin-left {
         margin-left: 50px;
+    }
+
+    .image-size {
+        width: 35vw;
     }
 }
 
@@ -103,4 +111,9 @@ hr {
 
 .navbar-toggler-icon {
     color: white !important;
+}
+
+.text-bold {
+    font-weight: bold;
+    font-size: 25px;
 }
