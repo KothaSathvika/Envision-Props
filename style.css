@@ -48,11 +48,9 @@ body {
         width: 20rem;
     }
 
-
-
     .first-text-size-in-card {
         font-size: 18px;
-        font-family: "Brush Script MT", cursive;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     .second-text-size-in-card {
