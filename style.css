@@ -77,6 +77,14 @@ body {
         font-size: 25px;
         font-family: Garamond, serif;
     }
+
+    .navbar-margin-right {
+        margin-right: 50px;
+    }
+
+    .navbar-margin-left {
+        margin-left: 50px;
+    }
 }
 
 hr {
@@ -87,4 +95,12 @@ hr {
     /* old IE */
     background-color: white;
     /* Modern Browsers */
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.navbar-toggler-icon {
+    color: white !important;
 }
